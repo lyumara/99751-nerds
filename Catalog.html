@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta lang="ru">
+  </head>
+  <body>
+    <!--Начало шапки-->
+    <div class="page-header">
+      <div class="page-header-top">
+        <div class="page-header-logo">
+          <a href="index.html"><img src="http://placehold.it/150x100"></a>
+        </div>
+        <div class="mail-nav">
+          <ul>
+            <li><a href="#">СТУДИЯ</a></li>
+            <li><a href="#">КЛИЕНТЫ</a></li>
+            <li><a href="#">МАГАЗИНЫ</a></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
+          </ul>
+        </div>
+        <div class="page-header-shopping-bag">
+          <img src="http://placehold.it/150x100">
+          <a href="#">КОРЗИНА</a>
+        </div>
+      </div>
+      <div class="start-home-message">
+        <h1>Магазин готовых шаблонов</h1>
+      </div>
+    </div>
+    <!--Конец шапки-->
+
+  <table>
+    <tr> <!-- шапка таблицы -->
+      <th>СТОИМОСТЬ:</th>
+      <th>СОРТИРОВАТЬ:</th>
+      <th>
+        <a href="#">По цене</a>
+        <a href="#">По типу</a>
+        <a href="#">По названию</a>
+        <a href="#">&#9660</a>
+        <a href="#">&#9650</a>
+      </th>
+    </tr>
+    <tr> <!-- первая строка -->
+      <td rowspan="4">
+        <form>
+
+          <!--поле ввода ОТ ДО -->
+          <lable for="idform">ОТ</lable>
+          <input type="text" name="from" id="idform" size="3">
+          <lable for="idto">ДО</lable>
+          <input type="text" name="to" id="idto" size="3">
+          <br>
+
+          <!--радио переключатели Сетка-->
+          <lable>
+            <h3>Сетка</h3>
+            <label for="idadaptive">
+              <input type="radio" name="question-adaptive" id="idadaptive">
+              Адаптивная;
+            </label>
+            <br>
+            <label for="idfixed">
+              <input type="radio" name="question-fixed" id="idfixed">
+              Фиксированная;
+            </label>
+            <br>
+            <label for="idrubber">
+              <input type="radio" name="question-rubber" id="idrubber">
+              Резиновая;
+            </label>
+          </lable><br>
+
+          <!--радио переключатели Особенности-->
+          <lable>
+            <h3>Особенности</h3>
+            <label for="idslider">
+              <input type="checkbox" name="question-slider" id="idslider">
+              Слайдер
+            </label>
+            <br>
+            <label for="idadvantages">
+              <input type="checkbox" name="question-advantages" id="idadvantages">
+              Блок преимуществ
+            </label>
+            <br>
+            <label for="idnews">
+              <input type="checkbox" name="question-news" id="idnews">
+              Новости
+            </label>
+            <br>
+            <label for="idgallery">
+              <input type="checkbox" name="question-gallery" id="idgallery">
+              Галерея
+            </label>
+            <br>
+            <label for="idbasket">
+              <input type="checkbox" name="question-basket" id="idbasket">
+              Корзина
+            </label>
+          </lable><br>
+
+          <!--кнопка отправки формы-->
+          <input type="submit" value="Показать">
+        </form>
+
+      </td>
+      <td><a href="#"><img src="http://placehold.it/150x100"</a></td>
+      <td><a href="#"><img src="http://placehold.it/150x100"</a></td>
+    </tr>
+    <tr> <!-- вторая строка -->
+      <td><a href="#"><img src="http://placehold.it/150x100"</a></td>
+      <td><a href="#"><img src="http://placehold.it/150x100"</a></td>
+    </tr>
+    <tr> <!-- третья строка -->
+      <td><a href="#"><img src="http://placehold.it/150x100"</a></td>
+      <td><a href="#"><img src="http://placehold.it/150x100"</a></td>
+    </tr>
+    <tr> <!-- четвертая строка -->
+      <td colspan="2">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">Следующая</a>
+      </td>
+    </tr>
+  </table>
+
+    <!--Начало подвала-->
+    <div class="page-footer">
+      <div class="page-footer-top">
+        <div class="address">
+          <img src="http://placehold.it/150x100">
+        </div>
+      </div>
+        <div class="page-footer-botoom">
+          <div class="footer-social">
+            <ul>
+              <li><a href="https://vk.com/htmlacademy"><img src="http://placehold.it/150x100"></a></li>
+              <li><a href="https://www.facebook.com/htmlacademy"><img src="http://placehold.it/150x100"></a></li>
+              <li><a href="https://www.instagram.com/htmlacademy/"><img src="http://placehold.it/150x100"></a></li>
+            </ul>
+          </div>
+        <div class="footer-massage">
+          <p>
+            Давайте дружить, это выгодно!<br>
+            <sub>Скидка 10% для друзей из социальных сетей.</sub></p>
+        </div>
+      </div>
+    </div>
+    <!--Конец подвала-->
+  </body>
+</html>
