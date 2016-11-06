@@ -1,0 +1,17 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 1.5em; /*размер шрифта*/
+  line-height: 1.5em; /*высоту строки*/
+  color: green;/*цвет шрифта*/
+  font-weight: bold; /*жирность шрифта*/
+  font-family: "Roboto", sans-serif; /*шрифт*/
+}
+h2 {
+  font-size: 1em;
+  line-height: 0.5em;
+  color: grey;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
