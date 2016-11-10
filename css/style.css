@@ -1,17 +1,21 @@
+@font-face{
+  font-family: Roboto; /* Имя шрифта */
+  font-weight: 400; /*насыщенность шрифта*/
+/*Для всех браузеров кроме EI грузим шрифт в формате TTF */
+  src: url(../fonts/Web/roboto.woff) format("woff"),
+  url(../fonts/Web/robotomedium.woff) format("woff"),
+  url(../fonts/Roboto-master/Roboto-Regular.ttf) format("truetype"),
+  url(../fonts/Roboto-master/Roboto-Bold.ttf) format("truetype"),
+  url(../fonts/Roboto-master/Roboto-Medium.ttf) format("truetype");
+  font-style: normal;
+}
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif; /* Имя шрифта */
+  font-size: 1rem; /*размер шрифта*/
 }
 h1 {
-  font-size: 1.5em; /*размер шрифта*/
-  line-height: 1.5em; /*высоту строки*/
   color: green;/*цвет шрифта*/
-  font-weight: bold; /*жирность шрифта*/
-  font-family: "Roboto", sans-serif; /*шрифт*/
 }
 h2 {
-  font-size: 1em;
-  line-height: 0.5em;
   color: grey;
-  font-weight: normal;
-  font-family: "Roboto", sans-serif;
 }
